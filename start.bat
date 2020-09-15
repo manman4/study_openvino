@@ -1,0 +1,1 @@
+call "C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\bin\setupvars.bat"
