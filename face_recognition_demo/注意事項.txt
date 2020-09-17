@@ -1,0 +1,18 @@
+以下の機能があるので
+クラウド上ではなく、ローカルに保存してから
+face_recognitionした方がいいかもしれない。
+
+
+-–allow_grow をオプションを指定して実行
+unknownを検出すると、その都度、名前を聞いてくるので入力
+（クラウド上だと画像が保存されない）
+
+保存した画像をもとに
+face_recognitionする場合、クラウド上だと
+
+    assert len(image.shape) == 3, \
+AttributeError: 'NoneType' object has no attribute 'shape'
+
+というエラーが出る。
+保存した画像なしで実行するか
+保存した画像を使いたい場合はローカルで実行
