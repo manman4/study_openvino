@@ -1,2 +1,3 @@
 action_recognition/models/
+openvino.txt
 *.mp4
