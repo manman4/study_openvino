@@ -1,3 +1,4 @@
 action_recognition/models/
+face_recognition_demo/models/
 openvino.txt
 *.mp4
