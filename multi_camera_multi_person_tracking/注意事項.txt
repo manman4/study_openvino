@@ -1,1 +1,7 @@
 tensorboardX が必要
+
+cameraを使用するときは
+-i 動画ファイル
+ではなく
+-i 0
+止めるときはEscキー

@@ -1,0 +1,1 @@
+python multi_camera_multi_person_tracking.py -i 0 --m_detector ./models/person-detection-retail-0013.xml --m_reid ./models/person-reidentification-retail-0076.xml --config config.py --history_file ./history/history.txt
