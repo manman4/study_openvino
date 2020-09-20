@@ -1,0 +1,1 @@
+python instance_segmentation_demo.py -m ./models/instance-segmentation-security-0049.xml --labels coco_labels.txt -i ./inputVideo.mp4 --delay 1
