@@ -5,3 +5,17 @@ instance_segmentation_demo/models/
 face_recognition_demo/fg/
 openvino.txt
 *.mp4
+instance_segmentation_demo/instance_segmentation_demo/__pycache__/__init__.cpython-37.pyc
+instance_segmentation_demo/instance_segmentation_demo/__pycache__/tracker.cpython-37.pyc
+instance_segmentation_demo/instance_segmentation_demo/__pycache__/visualizer.cpython-37.pyc
+multi_camera_multi_person_tracking/__pycache__/config.cpython-37.pyc
+multi_camera_multi_person_tracking/mc_tracker/__pycache__/mct.cpython-37.pyc
+multi_camera_multi_person_tracking/mc_tracker/__pycache__/sct.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/__init__.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/analyzer.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/ie_tools.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/misc.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/network_wrappers.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/segm_postprocess.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/video.cpython-37.pyc
+multi_camera_multi_person_tracking/utils/__pycache__/visualization.cpython-37.pyc
