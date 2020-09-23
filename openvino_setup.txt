@@ -25,7 +25,7 @@
 @‚Ì“ñ‚Â‚ð“®‚©‚·
 @
 
-(base) C:\Users\manch>cd C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo\
+(base) C:\Users\manman4>cd C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo\
 
 (base) C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo>demo_squeezenet_download_convert_run.bat
 
