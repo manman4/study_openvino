@@ -1,0 +1,66 @@
+1.Cmake
+  .msiのやつ
+  add cmake to the system PATH for all users を選択
+
+2.visual studio community
+  ワークロード　univasal とC++　をチェック
+　個別のコンポーネント    MSbuild         をチェック
+
+3.pip install opencv-python
+  pip install opencv-contrib-python
+  
+4.openvino　インストール
+　https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_windows.html#install-Core_Components
+　フルパッケージ
+
+5.openvinoの環境設定
+  C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\bin のsetupvars.batを実行
+　
+6.
+  C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\model_optimizer\install_prerequisites
+  のinstall_prerequisites.batを実行
+
+7.demo実施
+　C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo
+　の二つを動かす
+　
+
+(base) C:\Users\manch>cd C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo\
+
+(base) C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo>demo_squeezenet_download_convert_run.bat
+
+Top 10 results:
+
+Image C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo\car.png
+
+classid probability label
+------- ----------- -----
+817     0.6853030   sports car, sport car
+479     0.1835197   car wheel
+511     0.0917197   convertible
+436     0.0200694   beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon
+751     0.0069604   racer, race car, racing car
+656     0.0044177   minivan
+717     0.0024739   pickup, pickup truck
+581     0.0017788   grille, radiator grille
+468     0.0013083   cab, hack, taxi, taxicab
+661     0.0007443   Model T
+
+[ INFO ] Execution successful
+
+[ INFO ] This sample is an API example, for any performance measurements please use the dedicated benchmark_app tool
+
+###############|| Classification demo completed successfully ||###############
+
+ 5 秒待っています。続行するには何かキーを押してください ...
+
+(base) C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo>
+
+
+
+[ INFO ] Execution successful
+
+###############|| Demo completed successfully ||###############
+
+(base) C:\Program Files (x86)\IntelSWTools\openvino_2020.2.117\deployment_tools\demo>
+

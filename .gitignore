@@ -3,7 +3,6 @@ face_recognition_demo/models/
 multi_camera_multi_person_tracking/models/
 instance_segmentation_demo/models/
 face_recognition_demo/fg/
-openvino.txt
 *.mp4
 instance_segmentation_demo/instance_segmentation_demo/__pycache__/__init__.cpython-37.pyc
 instance_segmentation_demo/instance_segmentation_demo/__pycache__/tracker.cpython-37.pyc
