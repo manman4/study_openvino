@@ -3,6 +3,9 @@ OpenVINO
 1.Cmake
   .msiのやつ
   add cmake to the system PATH for all users を選択
+  
+  (参考)
+  https://www.kkaneko.jp/tools/win/cmake.html
 
 2.visual studio community
   ワークロード　univasal とC++　をチェック
