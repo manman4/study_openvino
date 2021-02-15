@@ -17,3 +17,4 @@ FP16
 ## 参考リンク
 
 [openvino.jp](https://openvino.jp/)
+
